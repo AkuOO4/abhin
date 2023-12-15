@@ -1,11 +1,16 @@
-start server - npm start
-Api's
+start server - npm start 
+
+# Api's
+
 login api - user/login 
+
             {
             email:""
             password:""
             }
+            
 signup api - user/signup
+
               {
                 name:""
                 email:""
