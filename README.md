@@ -1,3 +1,5 @@
+pre-requisits
+npm install multer
 start server - npm start 
 
 # Api's
@@ -16,3 +18,9 @@ signup api - user/signup
                 email:""
                 password:""
               }
+
+pdf reciever api - pdf/upload
+
+            {
+            
+            }
