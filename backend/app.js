@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import userRouter from "./routes/user-routes";
 import adminRouter from "./routes/admin-routes";
+import pdf_Router from "./routes/pdf-routes";
 
 import cors from "cors";
 dotenv.config();
@@ -13,6 +14,8 @@ app.use(cors());
 app.use(express.json());
 app.use("/user", userRouter);
 app.use("/admin", adminRouter);
+app.use("/pdf", pdf_Router);
+
 
 mongoose
   .connect(
